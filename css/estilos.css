@@ -1,0 +1,509 @@
+/* Importar la letra desded Google Fons */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Reset de valores por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/* Fuente de Google Fons */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Página index */
+
+.bodindex {
+    /* Especificaciones de la página */
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+    /* Imagen de fondo*/
+    background-image: url("../img/home-hero.jpg");
+    background-position: top;
+    background-size: cover;
+    
+  
+    /* Textos en blanco para todo el documento */
+    color: #ffffff;
+  }
+  
+  /* Color para los enlaces y para la propiedad hover */
+  .bodindex a {
+    color: #ffffff;
+  }
+  
+  .bodindex a:hover {
+    color: #6bdec8;
+  }
+  
+  /* Menu del header */
+  
+  .bodindex header {
+      padding-top:2em ;
+    text-align: center;
+  }
+  
+  .bodindex header ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bodindex header li {
+    display: inline-block;
+    margin: 1em;
+  }
+  
+  /* Contenido del main */
+  .bodindex main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bodindex main img {
+      width: 6em;
+  }
+  
+  .bodindex main h1 {
+    text-transform: lowercase;
+    font-size: 11em;
+    letter-spacing: -10px;
+  }
+  
+  .bodindex main h2 {
+    font-size: 3em;
+    letter-spacing: 0.15em;
+  }
+  
+  /*Contenido del footer */
+  .bodindex footer {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .bodindex footer ul {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }
+  
+  .bodindex footer li {
+    display: inline-block;
+    margin: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .bodindex footer p {
+    
+    margin-bottom: 1em;
+  }
+.mayuscula {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.enlacesvacios {
+    font-size: x-large;
+}
+  
+  /*------------------------------------------------------------------------------------------------------------------------*/
+
+/*  header resto de páginas */
+
+.headcomp {
+    padding-top:2em ;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000 ;
+  padding-bottom: 3em ;
+}
+
+.headcomp   ul {
+  display: flex;
+  justify-content: center;
+}
+
+.headcomp  li {
+  display: inline-block;
+  margin: 0.5em;
+  
+  
+}
+
+.headcomp  a {
+    color: #ffffff;
+}
+.headcomp  a:hover{
+    color: #6bdec8;
+}
+
+.headcomp  h1 {
+    font-size: 3em;
+    padding-bottom: 0.1em;
+    letter-spacing: -4px;
+}
+
+.headcomp  img {
+    width: 0.7em;
+    
+}
+
+.actual {
+    border-bottom: 2px solid #FFFFFF ;
+    padding-bottom: 1em;
+}
+
+
+/*  footer resto de páginas */
+
+.footcomp {
+    margin-top: 2em;
+    text-align: left;
+    background-color: #000000;
+  }
+  
+  .footcomp ul {
+    display: flex;
+    justify-content: left;
+    font-size: large;
+  }
+  
+  .footcomp li {
+    display: inline-block;
+    margin:  1em 1em 1em 0em;
+    margin-bottom: 2em;
+  }
+  
+  .footcomp p {
+    padding-bottom: 4em;
+    font-size: small;
+
+  }
+
+  .footcomp , .footcomp a {
+    color: #ffffff;
+  }
+
+  .footcomp a:hover{
+    color: #6bdec8;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* Página que es la ceramica */
+
+#mainceramica  p {
+    color: #000000;
+    font-weight: 100;
+    margin: 1em 0em 1em 0em;
+    
+  }
+  
+  #mainceramica h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 1em;
+    
+  }
+  
+  #mainceramica #contenfigure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto 2em auto;
+  }
+  
+  #mainceramica figure figcaption{
+    font-size: smaller;
+  }
+  
+  #mainceramica h3 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #000000;
+    font-size: x-large;
+  }
+  
+  #mainceramica li {
+    list-style: square;
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+  }
+  
+  
+  #mainceramica dt {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  
+  }
+  
+  #mainceramica dl {
+    margin-left: 4em;
+  }
+  
+  #mainceramica dd {
+    margin-bottom: 0.7em;
+    margin-left: 3em;
+  }
+  
+  #mainceramica p , #mainceramica dd {
+    line-height: 1.5em;
+    font-weight: 100;
+    text-align: start;
+    font-size: large;
+  }
+  
+  #mainceramica p strong {
+    font-weight: bold;
+  }
+  .contenedor {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+  }
+/* video youtube*/
+
+.enlacewiki {
+    color: #942C0B;  
+    border-bottom: 1px dotted #942C0B; 
+  }
+  
+  .enlacewiki:hover {
+    border-bottom: 1px solid #942C0B;
+  }
+  
+  .margintop {
+    margin-top: 1em;
+  }
+  
+
+  /*--------------------------------------------------------------------------------------------------------------------------*/
+  /* Página de cursos */
+
+#maincursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #maincursos .titulo1{
+    margin-top: 2em;
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  #maincursos .titulo2 {
+    margin-bottom: 1em;
+    font-size: 300%;
+    text-align: center;
+  }
+  
+  #maincursos #contprincipal{
+    width: 70%;
+  }
+  
+  #maincursos img {
+    height: auto;
+    width: 100%;
+  }
+  
+  #maincursos #contenedor_figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto 2em auto;
+  }
+  
+  #maincursos figure figcaption{
+    font-size: smaller;
+  }
+  
+  
+  #maincursos #contprincipal #texto {
+    margin-top: 2em;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  #maincursos .tablaprecios {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small;
+  }
+  
+  #main_ursos .tablaprecios th,
+  #maincursos .tablaprecios td {
+    
+    padding: 10px;
+  }
+  
+  #maincursos .tablaprecios th {
+    font-weight: 400;
+    font-size: large;
+  }
+      
+  
+  .bordesuperior{
+    border-top: 1px solid #000000;
+  }
+  
+  .bordeinferior{
+    border-bottom: 1px solid #000000;
+  }
+  
+  .fondocolor{
+    background-color: #6bdec8;
+  }
+  
+  .tnegrita {
+    font-weight: 700;
+  }
+  
+  .tmediano{
+    font-size: medium;
+  }
+  
+  .tnormal{
+    font-weight: 400;
+  }
+
+  /*---------------------------------------------------------------------------------------------------------------------------------*/
+    /* Página del formulario */
+
+
+#mainformulario{
+    width: 90%;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  
+  fieldset{
+    border: 1px solid #000000;
+    padding: 1em;
+  }
+  legend {
+    margin-left: 2em;
+    font-weight: 700;
+    font-size: larger;
+  }
+  
+  
+  
+  .orgrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .orgrid input ,  .orgrid select {
+    border: 1px solid #000000;
+    width: 90%;
+    height: 2.5em;
+    background-color: transparent;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  .orgrid select {
+    width: 92%;
+    height: 2.6em;
+  }
+  
+  .orgrid select {
+    padding-left: 0.5em;
+    
+  }
+  
+  .orgrid option {
+    margin-left: 1em;
+  }
+  
+  .orgrid label {
+    margin-bottom: 0.5em;
+  }
+  
+  
+  label{
+    display: block;
+  }
+  
+  #mainformulario textarea{
+    border: 1px solid #000000;
+    width: 100%;
+    height: auto;
+    min-height: 10em;
+    resize: none;
+  
+  }
+  
+  #mainformulario .checkprodatos {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  #protdatos {
+  
+  margin: 1em 0;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.4em;
+  }
+  
+  #mainformulario  h2 {
+    text-align: center;
+    margin: 1em;
+    font-size: xx-large;
+  }
+  
+  #mainformulario .obligacion {
+    font-size: small;
+    margin-bottom: 2em;
+  }
+  
+  #metodopago{
+    padding-bottom: 1em;
+  }
+  #metodopago div{
+    margin-bottom: 1em;
+  }
+  
+  .botonformulario{
+    background-color: #942C0B;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 1em;
+    padding: 1em;
+  }
+  .botonformulario:hover{
+    cursor: pointer;
+  }
+  .marginbot{
+    margin-bottom: 1em;
+  }
+  
+  .flexcolumna{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /*---------------------------------------------------------------------------------------------------------------------*/
+  
+ 
+ 

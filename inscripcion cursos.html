@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description" content="Página para incribirse " >
+    <meta name="author" content="Jose Soler Molina" >
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/estilos.css" >
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" >
+    <title>Inscripción cursos</title>
+</head>
+
+<body id="bodyceramica">
+    <header class="headcomp">
+        <h1>
+            <a href="index.html">
+                <img src="img/isologo-taller.png" alt="logo-eltaller">
+            </a>
+            el taller
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a class="mayuscula" href="que es la ceramica.html">Cerámica</a>
+                </li>
+                <li>
+                    <a class="mayuscula" href="cursos.html">Cursos</a>
+                </li>
+                <li>
+                    <a class="mayuscula actual" href="inscripcion cursos.html">Inscripción</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainformulario">
+        <article>
+            <h2>Inscripción a los cursos</h2>
+
+            <p class="obligacion">Los campos marcados con * son obligatorios</p>
+            <form action="#" method="post">
+                <fieldset class="orgrid">
+                    <legend>Detalles de la Inscripción</legend>
+
+                    <div>
+                        <label for="nombre">Nombre*</label>
+                        <input type="text" id="nombre" name="nombre" required >
+                    </div>
+
+                    <div>
+                        <label for="apellidos">Apellidos*</label>
+                        <input type="text" id="apellidos" name="apellidos" required >
+                    </div>
+                    <div>
+                        <label for="correo">Correo electrónico*</label>
+                        <input type="email" id="correo" name="correo" required >
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono*</label>
+                        <input type="tel" id="telefono" name="telefono" required >
+                    </div>
+                    <div>
+                        <label for="fecha_nacimiento">Fecha de nacimiento*</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required >
+                    </div>
+                    <div>
+                        <label for="curso">Curso*</label>
+                        <select id="curso" name="curso" required>
+                            <option value="" disabled selected>Seleccionar Curso</option>
+                            <option value="torno">Torno</option>
+                            <option value="cerámica">Cerámica</option>
+                            <option value="modelado">Modelado</option>
+                            <option value="esmaltes">Esmaltes</option>
+                            <option value="joyería cerámica">Joyería cerámica</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset class="margintop">
+                    <legend>Otras informaciones</legend>
+
+                    <fieldset class="flexcolumna">
+                        <legend>¿Has hecho otros cursos con nosotros?*</legend>
+                        <div>
+
+                            <input type="radio" id="otros_si" name="otros" value="si" required >
+                            Sí
+                        </div>
+                        <div class="margintop">
+
+                            <input type="radio" id="otros_no" name="otros" value="no" required >
+                            No
+                        </div>
+
+                    </fieldset>
+                    <label class="margintop" for="comentario">¿Quieres comentar o preguntar algo?</label>
+                    <textarea class="margintop marginbot" id="comentario" name="comentario"></textarea>
+                </fieldset>
+
+                <fieldset class="flexcolumna margintop" id="metodopago">
+                    <legend>Elige el método de pago*</legend>
+
+                    <div>
+
+                        <input class="margintop" type="radio" id="metodopago transferencia" name="metodopago"
+                            value="transferencia" required >
+                            Transferencia
+                    </div>
+                    <div>
+
+                        <input class="margintop" type="radio" id="metodopago tarjeta" name="metodopago"
+                            value="tarjeta" required >
+                            Tarjeta de débito / crédito
+                    </div>
+                    <div>
+
+                        <input class="margintop" type="radio" id="metodopago efectivo" name="metodopago"
+                            value="efectivo" required >
+                            En efectivo
+                    </div>
+
+                </fieldset>
+
+                <p id="protdatos">
+                    INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
+                    <strong> EL TALLER. Finalidades</strong>: recogida de datos para la
+                    inscripción como socio del interesado.
+                    <strong>Legitimación</strong>: Consentimiento del interesado.
+                    <strong>Destinatarios</strong>: No están previstas cesiones de datos
+                    a terceros, excepto obligación legal. <strong>Derechos</strong>:
+                    Puede retirar su consentimiento en cualquier momento, así como
+                    acceder, rectificar, suprimir sus datos y otros derechos
+                    dirigiéndose a
+                    <a class="enlacewiki" href="#">info@eltaller.es</a>.
+                    <strong>Información Adicional</strong> : Puede ampliar la
+                    información en el enlace de
+                    <a class="enlacewiki" href="#">Aviso Legal</a> y
+                    <a class="enlacewiki" href="#">Política de privacidad</a>.
+                </p>
+
+                <div class="checkprotdatos">
+                <input type="checkbox" id="acepto_politica_privacidad" name="acepto_politica_privacidad" required >
+                <label for="acepto_politica_privacidad">He leído y acepto la
+                    <a class="enlacewiki" href="#">política de privacidad</a>*
+                </label>
+                </div>
+
+                <input class="botonformulario" type="submit" value="Inscríbeme" >
+            </form>
+        </article>
+    </main>
+
+    <footer class="footcomp">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                </ul>
+            </nav>
+            <p>2023 &copy; José Soler Molina</p>
+        </div>
+    </footer>
+</body>
+
+</html>
